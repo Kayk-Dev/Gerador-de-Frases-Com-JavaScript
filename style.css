@@ -1,0 +1,34 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;    
+}
+.box {
+       width: 95%;
+       height: 100vh;
+       display: flex;
+}
+.quotes {
+       width: 900px;
+       height: 460px;
+       margin: auto;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 0px 50px;
+       color: grey;
+       background-color: #f4edea;
+       border: 10px solid #f4d1ae
+}
+
+.quotes h3, .quotes p {
+       font-size: 1.5rem;
+}
+
+@media(max-width: 480px) {
+       .quotes h3, .quotes p {
+              font-size: 1rem;
+       } 
+}
